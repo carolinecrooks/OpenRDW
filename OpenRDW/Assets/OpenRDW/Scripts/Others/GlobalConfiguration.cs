@@ -431,7 +431,7 @@ public class GlobalConfiguration : MonoBehaviour
             else if (movementController == MovementController.HMD)
             {
                 //press R key to start logging
-                if (readyToStart)
+                //if (readyToStart)
                     MakeOneStepCycle();
             }
         }

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Camera45
   - AvatarNetworkingTransform
+  - NetworkingTransform
+  - CarolinePath
+  - PathViewer
   layers:
   - Default
   - TransparentFX

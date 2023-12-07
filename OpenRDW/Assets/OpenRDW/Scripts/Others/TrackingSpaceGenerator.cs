@@ -44,6 +44,8 @@ public class TrackingSpaceGenerator
     //generate rectangle tracking space (with obstacle)
     public static void GenerateRectangleTrackingSpace(int obstacleType, out List<Vector2> trackingSpacePoints, out List<List<Vector2>> obstaclePolygons, out List<InitialConfiguration> initialConfigurations, float width,float height)
     {
+        width = 15;
+        height = 15;
         trackingSpacePoints = new List<Vector2> {
             new Vector2(width/2,height/2),
             new Vector2(-width/2,height/2),

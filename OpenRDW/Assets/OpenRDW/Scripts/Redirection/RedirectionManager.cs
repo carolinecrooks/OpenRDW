@@ -81,7 +81,7 @@ public class RedirectionManager : MonoBehaviour {
     private NetworkManager networkManager;
     void Awake()
     {
-        redirectorType = RedirectorChoiceToRedirector(redirectorChoice);
+        redirectorType = RedirectorChoiceToRedirector(redirectorChoice); // change this
         resetterType = ResetterChoiceToResetter(resetterChoice);
 
         globalConfiguration = GetComponentInParent<GlobalConfiguration>();
@@ -297,7 +297,8 @@ public class RedirectionManager : MonoBehaviour {
             }
         }
         else
-        {                        
+        {                         
+            // change this here or off redirection 
             if (redirector != null)
             {
                 redirector.InjectRedirection();
