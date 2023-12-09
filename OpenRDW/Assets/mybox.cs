@@ -34,13 +34,13 @@ public class mybox : MonoBehaviour
         Debug.Log("angle is: " + path_viewer_val.ToString() + "and " + box_val.ToString() + ", threshold is " + facing_towards_threshold.ToString());
         
         // if on the path but not facing forward, stop the redirection
-        if ((facing_towards_threshold > 0.45) & redirecting){
+        /*if ((facing_towards_threshold > 0.60) & redirecting){
             redirectionManager.UpdateRedirector(typeof(NullRedirector));
             redirecting = false;
-        } else if (!redirecting & (facing_towards_threshold <= 0.45)) {
+        } else if (!redirecting & (facing_towards_threshold <= 0.60)) {
             redirectionManager.UpdateRedirector(typeof(S2ORedirector));
             redirecting = true;
-        }
+        }*/
     }
 
     private void OnTriggerEnter(Collider collision)
