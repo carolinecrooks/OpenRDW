@@ -10,6 +10,7 @@ public class AvatarAnimatorController : MonoBehaviour
     private GlobalConfiguration globalConfiguration;
     private RedirectionManager redirectionManager;
     private Vector3 prePos;
+    private Renderer renderer;
     void Start()
     {
         globalConfiguration = GetComponentInParent<GlobalConfiguration>();
@@ -19,7 +20,10 @@ public class AvatarAnimatorController : MonoBehaviour
         }
         catch {
 
-        }        
+        }
+
+        // renderer = globalConfiguration.redirectedAvatars[avatarId].GetComponent<Renderer>();
+        // renderer.enabled = false;
     }
 
     // Update is called once per frame

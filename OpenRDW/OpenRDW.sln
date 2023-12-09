@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Demos", "PhotonUnityNetworking.Demos.csproj", "{DA446437-91C4-4A18-7C40-07BE3A6C3F9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Utilities", "PhotonUnityNetworking.Utilities.csproj", "{3F113087-7B0D-ACD2-88A0-A33B02F11427}"
@@ -26,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Utilities.PhotonPlayer.Editor", "PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj", "{648FFCDF-4FBE-5E2E-EBEF-BC75AE959BAF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Utilities.Culling.Editor", "PhotonUnityNetworking.Utilities.Culling.Editor.csproj", "{BCA83639-3F67-4645-5EBD-98BB6A16F359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{06DBDA11-922C-C2F1-B6CD-A284373C5941}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PunDemos.DemoSlotcarEditor", "PunDemos.DemoSlotcarEditor.csproj", "{C7B1EF7D-DC1A-B6D2-4409-76CEEA34B69D}"
 EndProject
@@ -89,6 +91,10 @@ Global
 		{BCA83639-3F67-4645-5EBD-98BB6A16F359}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCA83639-3F67-4645-5EBD-98BB6A16F359}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCA83639-3F67-4645-5EBD-98BB6A16F359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DBDA11-922C-C2F1-B6CD-A284373C5941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DBDA11-922C-C2F1-B6CD-A284373C5941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DBDA11-922C-C2F1-B6CD-A284373C5941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DBDA11-922C-C2F1-B6CD-A284373C5941}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C7B1EF7D-DC1A-B6D2-4409-76CEEA34B69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C7B1EF7D-DC1A-B6D2-4409-76CEEA34B69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7B1EF7D-DC1A-B6D2-4409-76CEEA34B69D}.Release|Any CPU.ActiveCfg = Release|Any CPU

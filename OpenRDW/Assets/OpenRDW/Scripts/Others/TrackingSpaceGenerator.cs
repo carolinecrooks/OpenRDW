@@ -5,7 +5,7 @@ using System.IO;
 
 public class TrackingSpaceGenerator
 {
-    private const float DEFAULT_TRACKING_SPACE_RADIUS = 5;//default physical tracking space radius
+    private const float DEFAULT_TRACKING_SPACE_RADIUS = 10;//default physical tracking space radius
     private const float DEFAULT_TRAPEZOID_W1 = 10;//trapzoid left length
     private const float DEFAULT_TRAPEZOID_W2 = 6;//trapzoid right length
     private const float DEFAULT_TRAPEZOID_H = 10;//trapzoid height
@@ -44,6 +44,8 @@ public class TrackingSpaceGenerator
     //generate rectangle tracking space (with obstacle)
     public static void GenerateRectangleTrackingSpace(int obstacleType, out List<Vector2> trackingSpacePoints, out List<List<Vector2>> obstaclePolygons, out List<InitialConfiguration> initialConfigurations, float width,float height)
     {
+        width = 10;
+        height = 10;
         trackingSpacePoints = new List<Vector2> {
             new Vector2(width/2,height/2),
             new Vector2(-width/2,height/2),

@@ -29,7 +29,7 @@ public class HeadFollower : MonoBehaviour {
         redirectionManager = GetComponentInParent<RedirectionManager>();
         movementManager = GetComponentInParent<MovementManager>();
         globalConfiguration = GetComponentInParent<GlobalConfiguration>();
-        ifVisible = true;        
+        ifVisible = false;        
     }
 
     public void CreateAvatarViualization() {
@@ -45,6 +45,7 @@ public class HeadFollower : MonoBehaviour {
     // Use this for initialization
     void Start () {
         prePos = transform.position;
+        ifVisible = false; 
     }
 	
     public void UpdateManually() {

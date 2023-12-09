@@ -44,6 +44,6 @@ public class UserInterfaceManager : MonoBehaviour
         }
     }
     public void SetActivePanelExperimentComplete(bool active) {
-        panelExperimentComplete.SetActive(active);
+        //panelExperimentComplete.SetActive(active);
     }
 }
